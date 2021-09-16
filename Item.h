@@ -17,7 +17,7 @@ class Item
       // 3. Write the Destructor
       ~Item();
 
-      void setDiscount(float punitPrice);
+      void setDiscount(float pdiscount);
       float getDiscount();
       float discountedPrice();
       void display();
